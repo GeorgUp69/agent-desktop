@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Freikontor Finanzcockpit 2026 – Handbuch</title>
+<link rel="stylesheet" href="print.css">
+</head>
+<body>
+
+<section class="cover">
+  <div class="brand"><img src="../../brand/logo-mark.svg" width="46" height="46" alt=""> FREIKONTOR</div>
+  <div>
+    <h1>Finanzcockpit 2026</h1>
+    <div class="bar"></div>
+    <p class="sub">Handbuch für Einnahmen, Ausgaben, EÜR, Umsatzsteuer, Steuerrücklage und Kleinunternehmer-Monitor</p>
+  </div>
+  <p class="meta">Version 2026.1 · gilt für Basis und PRO · Steuerwerte 2025 und 2026</p>
+</section>
+
+<h2>Inhalt</h2>
+<div class="toc">
+<ol>
+  <li><span>1. In 10 Minuten startklar</span></li>
+  <li><span>2. Installation: Excel, LibreOffice, Google Sheets, Numbers</span></li>
+  <li><span>3. Das Startblatt richtig ausfüllen</span></li>
+  <li><span>4. Einnahmen und offene Rechnungen</span></li>
+  <li><span>5. Ausgaben, Vorsteuer und Sonderfälle</span></li>
+  <li><span>6. Dashboard und Monatsübersicht</span></li>
+  <li><span>7. Die Steuerrücklage verstehen</span></li>
+  <li><span>8. Kleinunternehmer-Monitor</span></li>
+  <li><span>9. Umsatzsteuer-Voranmeldung vorbereiten</span></li>
+  <li><span>10. EÜR zum Jahresende</span></li>
+  <li><span>11. PRO: Stundensatz, Liquidität, Fristen</span></li>
+  <li><span>12. Routinen: wöchentlich, monatlich, jährlich</span></li>
+  <li><span>13. Grenzen der Berechnung</span></li>
+  <li><span>14. Häufige Fragen und Fehlerbehebung</span></li>
+</ol>
+</div>
+<div class="box warn"><strong>Wichtig vorab</strong>Das Finanzcockpit hilft Ihnen, Ihre Zahlen zu organisieren und Ihre Steuerlast realistisch einzuschätzen. Es ist keine Steuerberatung, gibt keine Steuererklärung ab und übermittelt nichts an das Finanzamt. Maßgeblich ist allein Ihr Steuerbescheid. Bei Unsicherheiten fragen Sie bitte eine Steuerberaterin oder einen Steuerberater, oder einen Lohnsteuerhilfeverein, sofern er für Ihren Fall beraten darf.</div>
+
+<section class="chapter">
+<h2>1. In 10 Minuten startklar</h2>
+<ol>
+  <li><strong>Datei kopieren.</strong> Speichern Sie <span class="kbd">Freikontor-Finanzcockpit-2026.xlsx</span> in einem Ordner, der gesichert wird (z. B. Ihre Cloud). Die Beispieldateien sind zum Ausprobieren da und enthalten ausschließlich erfundene Daten.</li>
+  <li><strong>Startblatt ausfüllen.</strong> Steuerjahr, Umsatzsteuer-Status, Tätigkeit und Vorjahresumsatz eintragen. Gelbe Felder sind Eingabefelder (Kapitel 3).</li>
+  <li><strong>Rechnungen erfassen.</strong> Jede gestellte Rechnung im Blatt <em>Einnahmen</em> eintragen und das Zahlungsdatum ergänzen, sobald das Geld eingeht.</li>
+  <li><strong>Belege erfassen.</strong> Jeden Beleg im Blatt <em>Ausgaben</em> mit Bruttobetrag, USt-Satz und Kategorie eintragen.</li>
+  <li><strong>Rücklagekonto einrichten.</strong> Eröffnen Sie ein separates (Tages-)Geldkonto nur für Steuern. Tragen Sie den Stand einmal im Monat im Startblatt ein.</li>
+  <li><strong>Dashboard prüfen.</strong> Dort sehen Sie Gewinn, offene Rechnungen, die Soll-Rücklage und den Kleinunternehmer-Status.</li>
+</ol>
+<figure><img src="../screenshots/start.png" alt="Startblatt mit Grundeinstellungen"><figcaption>Abbildung 1: Das Startblatt. Gelbe Felder sind Eingaben, alle anderen Zellen rechnen automatisch. Beispieldaten fiktiv.</figcaption></figure>
+</section>
+
+<section class="chapter">
+<h2>2. Installation</h2>
+<p>Es gibt nichts zu installieren. Die Datei ist eine normale Arbeitsmappe ohne Makros und ohne Internetverbindung. Ihre Daten bleiben auf Ihrem Gerät.</p>
+<table>
+<tr><th>Programm</th><th>Status</th><th>Hinweise</th></tr>
+<tr><td>Microsoft Excel 2016, 2019, 2021, Microsoft 365 (Windows/Mac)</td><td>unterstützt</td><td>Öffnen, bei Nachfrage „Bearbeitung aktivieren“ wählen. Die Formeln nutzen keine Funktionen, die nur in neuen Excel-Versionen existieren.</td></tr>
+<tr><td>LibreOffice Calc 7.x und neuer</td><td>getestet</td><td>Alle Berechnungen wurden mit LibreOffice automatisiert gegen eine unabhängige Referenzrechnung geprüft.</td></tr>
+<tr><td>Google Sheets</td><td>unterstützt</td><td>In Google Drive hochladen, dann „Öffnen mit Google Tabellen“. Der Blattschutz wird beim Import nicht übernommen. Überschreiben Sie keine weißen (berechneten) Zellen.</td></tr>
+<tr><td>Apple Numbers</td><td>eingeschränkt</td><td>Numbers wandelt Dropdowns und bedingte Formatierungen teilweise um. Für den Alltag empfehlen wir Excel, LibreOffice (kostenlos) oder Google Sheets.</td></tr>
+</table>
+<h3>Blattschutz</h3>
+<p>Alle Blätter sind ohne Passwort geschützt, damit Formeln nicht versehentlich überschrieben werden. Eingabefelder (gelb) sind freigegeben. Wenn Sie etwas anpassen möchten: <em>Überprüfen → Blattschutz aufheben</em> (Excel) bzw. <em>Extras → Tabelle schützen</em> (LibreOffice). Ändern Sie Formeln nur, wenn Sie wissen, was Sie tun.</p>
+<h3>Jahreswechsel</h3>
+<p>Nutzen Sie pro Steuerjahr eine eigene Kopie der Datei. Wählen Sie im Startblatt das Steuerjahr. Buchungen aus anderen Jahren werden ignoriert, Sie können also Rechnungen vom Dezember mit Zahlung im Januar problemlos in der Datei des Folgejahres erfassen.</p>
+<div class="box"><strong>Datensicherung</strong>Speichern Sie die Datei in einem gesicherten Ordner. Belege müssen Sie unabhängig davon aufbewahren (grundsätzlich 8 Jahre für Buchungsbelege, 10 Jahre für Bücher und Aufzeichnungen nach § 147 AO in der aktuellen Fassung; Details mit der Steuerberatung klären).</div>
+</section>
+
+<section class="chapter">
+<h2>3. Das Startblatt richtig ausfüllen</h2>
+<table>
+<tr><th>Feld</th><th>Was eintragen?</th></tr>
+<tr><td>Steuerjahr</td><td>2026 (oder 2025 für das Vorjahr). Bestimmt Tarif, Freigrenzen und welche Buchungen zählen.</td></tr>
+<tr><td>Umsatzsteuer-Status</td><td><em>Kleinunternehmer</em>, wenn Sie § 19 UStG anwenden (keine USt auf Rechnungen). Sonst <em>Regelbesteuerung</em>.</td></tr>
+<tr><td>Versteuerungsart</td><td>Nur bei Regelbesteuerung: Ist-Versteuerung (USt nach Zahlungseingang) muss beim Finanzamt beantragt und genehmigt sein. Ohne Genehmigung gilt die Soll-Versteuerung (nach Rechnungsdatum bzw. Leistung).</td></tr>
+<tr><td>Tätigkeit</td><td><em>Freiberuflich</em> für Katalogberufe nach § 18 EStG (z. B. Designer mit künstlerischer Tätigkeit, Journalisten, Übersetzer, beratende Ingenieure). <em>Gewerblich</em> z. B. für Online-Shops, Agenturen, Handel. Die Abgrenzung ist im Einzelfall schwierig. Ihr Finanzamt hat Sie bei der Anmeldung (Fragebogen zur steuerlichen Erfassung) zugeordnet.</td></tr>
+<tr><td>Hebesatz</td><td>Nur gewerblich: Gewerbesteuer-Hebesatz Ihrer Gemeinde (steht im Gewerbesteuerbescheid oder auf der Website der Gemeinde). Eingabe als Prozent, z. B. 410 %.</td></tr>
+<tr><td>Gründungsjahr</td><td>„Ja“, wenn Sie die Tätigkeit im laufenden Jahr aufgenommen haben. Dann gilt für die Kleinunternehmerregelung die 25.000-€-Grenze.</td></tr>
+<tr><td>Vorjahresumsatz</td><td>Gesamtumsatz (netto) des Vorjahres.</td></tr>
+<tr><td>Veranlagung</td><td>Zusammenveranlagung nur bei Ehe oder eingetragener Lebenspartnerschaft. Dann die Einkünfte des Partners bei „Andere Einkünfte“ mit einrechnen.</td></tr>
+<tr><td>Andere Einkünfte</td><td>z. B. Gehalt aus Anstellung abzüglich Werbungskosten (mindestens Arbeitnehmer-Pauschbetrag), Mieteinkünfte, Rente (steuerpflichtiger Teil).</td></tr>
+<tr><td>Sonderausgaben &amp; Vorsorge</td><td>Abziehbare Beiträge zu Kranken-, Pflege- und Rentenversicherung, Spenden, Kirchensteuer des Vorjahres. Im Zweifel konservativ schätzen; ein zu niedriger Wert führt zu einer höheren (sichereren) Rücklage.</td></tr>
+<tr><td>Vorauszahlungen</td><td>Was Sie in diesem Jahr bereits an Einkommensteuer-, Soli-, Kirchensteuer- und Gewerbesteuer-Vorauszahlungen für dieses Jahr gezahlt haben.</td></tr>
+<tr><td>Hochrechnung / Monate</td><td>Standard: Der bisherige Gewinn wird auf 12 Monate hochgerechnet. Bei stark saisonalem Geschäft „Nein“ wählen oder die Monate manuell setzen.</td></tr>
+<tr><td>Rücklagekonto</td><td>Aktueller Kontostand Ihres Steuer-Rücklagekontos.</td></tr>
+</table>
+</section>
+
+<section class="chapter">
+<h2>4. Einnahmen und offene Rechnungen</h2>
+<p>Erfassen Sie jede Rechnung in einer Zeile. Das Cockpit folgt dem <strong>Zuflussprinzip</strong> (§ 11 EStG): Für Gewinn und Kleinunternehmergrenze zählt das Datum des Zahlungseingangs.</p>
+<figure><img src="../screenshots/einnahmen.png" alt="Blatt Einnahmen"><figcaption>Abbildung 2: Einnahmen mit automatischem Status. Überfällige Rechnungen werden rot markiert. Beispieldaten fiktiv.</figcaption></figure>
+<table>
+<tr><th>Spalte</th><th>Hinweis</th></tr>
+<tr><td>Kategorie</td><td><em>Umsatzerlöse</em> für normale Rechnungen. <em>Ohne deutsche USt</em> für Leistungen an Unternehmen im Ausland (Reverse Charge) – diese zählen nicht zur Kleinunternehmergrenze und führen bei Regelbesteuerung zur Zusammenfassenden Meldung. <em>Sonstige Betriebseinnahme</em> z. B. für den Verkauf eines betrieblichen Laptops. <em>USt-Erstattung</em> für Geld, das das Finanzamt zurückzahlt.</td></tr>
+<tr><td>Netto / USt-Satz</td><td>Kleinunternehmer tragen den Rechnungsbetrag als Netto ein; die USt-Spalte bleibt automatisch 0. Bei Regelbesteuerung 19 % oder 7 % wählen.</td></tr>
+<tr><td>Zahlungsziel</td><td>Leer = 14 Tage. Daraus ergeben sich „Fällig am“ und der Status <em>Offen</em>, <em>Überfällig (x Tage)</em> oder <em>Bezahlt</em>.</td></tr>
+</table>
+<div class="box"><strong>Tipp: Mahnwesen in 2 Minuten pro Woche</strong>Filtern Sie die Spalte Status nach „Überfällig“. Die Summe aller offenen Rechnungen steht oben im Blatt und auf dem Dashboard.</div>
+</section>
+
+<section class="chapter">
+<h2>5. Ausgaben, Vorsteuer und Sonderfälle</h2>
+<p>Tragen Sie immer den <strong>Bruttobetrag laut Beleg</strong> und den USt-Satz ein. Das Cockpit rechnet Vorsteuer und Nettobetrag selbst aus. Als Kleinunternehmer dürfen Sie keine Vorsteuer abziehen, deshalb zählt dann der volle Bruttobetrag als Ausgabe.</p>
+<figure><img src="../screenshots/ausgaben.png" alt="Blatt Ausgaben"><figcaption>Abbildung 3: Ausgaben mit automatisch berechneter Vorsteuer und Abzugsfähigkeit. Beispieldaten fiktiv.</figcaption></figure>
+<h3>Sonderfälle, die das Cockpit automatisch berücksichtigt</h3>
+<ul>
+  <li><strong>Bewirtung:</strong> Kategorie „Bewirtung (70 %)“ setzt 70 % als Betriebsausgabe an. Die Vorsteuer ist bei ordnungsgemäßem Beleg voll abziehbar. Anlass und Teilnehmer auf dem Beleg notieren.</li>
+  <li><strong>Geschenke:</strong> bis 50 € pro Person und Jahr abziehbar (Kategorie „Geschenke bis 50 €“). Darüber: Kategorie „über 50 €“ – kein Betriebsausgaben- und kein Vorsteuerabzug.</li>
+  <li><strong>Umsatzsteuer an das Finanzamt:</strong> Jede USt-Zahlung als Ausgabe mit der Kategorie „Umsatzsteuer-Zahlung an das Finanzamt“ und 0 % erfassen. Nur so stimmt die EÜR.</li>
+  <li><strong>Reverse Charge (§ 13b UStG):</strong> Rechnungen ausländischer Anbieter ohne deutsche USt, z. B. Werbung bei Meta oder Google aus Irland oder Software-Abos, in der Spalte „Reverse Charge“ mit „Ja“ markieren. Sie schulden dann die deutsche Umsatzsteuer selbst. <strong>Das gilt auch für Kleinunternehmer</strong>, die diese Steuer nicht als Vorsteuer abziehen dürfen. Das Blatt Umsatzsteuer zeigt den Betrag.</li>
+</ul>
+<h3>Was das Cockpit nicht automatisch macht</h3>
+<ul>
+  <li><strong>Abschreibungen (AfA):</strong> Wirtschaftsgüter über 800 € netto werden über die Nutzungsdauer verteilt. Tragen Sie den Jahresbetrag in der Kategorie „Abschreibung (AfA, Jahresbetrag)“ ein. Bis 800 € netto: Kategorie „Geringwertige Wirtschaftsgüter“.</li>
+  <li><strong>Gemischt genutzte Kosten</strong> (Handy, Internet, Auto): nur den betrieblichen Anteil als Brutto eintragen und den Anteil in der Notiz begründen.</li>
+  <li><strong>Homeoffice-Pauschale:</strong> 6 € pro Tag, höchstens 1.260 € im Jahr, wenn die Voraussetzungen erfüllt sind. Als eine Zeile mit 0 % USt erfassen.</li>
+</ul>
+</section>
+
+<section class="chapter">
+<h2>6. Dashboard und Monatsübersicht</h2>
+<figure><img src="../screenshots/dashboard-ku.png" alt="Dashboard"><figcaption>Abbildung 4: Das Dashboard mit Kennzahlen, Rücklagenabgleich und Monatsverlauf. Beispiel A, fiktiv.</figcaption></figure>
+<p>Das Dashboard rechnet ausschließlich mit Ihren Eingaben. Die Kacheln bedeuten:</p>
+<ul>
+  <li><strong>Einnahmen netto / Ausgaben / Gewinn bisher:</strong> nach Zahlungsdatum, ohne Umsatzsteuer-Bewegungen.</li>
+  <li><strong>Soll-Rücklage heute:</strong> Was jetzt auf dem Rücklagekonto liegen sollte (Ertragsteuern für den bisherigen Gewinn abzüglich Vorauszahlungen plus noch abzuführende Umsatzsteuer).</li>
+  <li><strong>Über-/Unterdeckung:</strong> Rücklagekonto minus Soll-Rücklage. Rot heißt: auffüllen.</li>
+  <li><strong>Rücklagequote:</strong> Anteil jedes Gewinn-Euros, der voraussichtlich an Steuern geht.</li>
+</ul>
+</section>
+
+<section class="chapter">
+<h2>7. Die Steuerrücklage verstehen</h2>
+<p>Viele Vorlagen arbeiten mit pauschal „30 % zurücklegen“. Das ist für Nebenberufler mit gutem Gehalt oft zu wenig und für Gründer mit kleinem Gewinn oft zu viel. Das Finanzcockpit rechnet deshalb zwei Szenarien mit dem tatsächlichen Tarif:</p>
+<ol>
+  <li><strong>Mit Selbstständigkeit:</strong> Hochgerechneter Jahresgewinn + andere Einkünfte − Sonderausgaben = zu versteuerndes Einkommen. Darauf: Einkommensteuer nach § 32a EStG (bei Zusammenveranlagung im Splittingverfahren), Gewerbesteuer mit Freibetrag 24.500 € und Anrechnung nach § 35 EStG, Solidaritätszuschlag mit Freigrenze und Milderungszone, Kirchensteuer.</li>
+  <li><strong>Ohne Selbstständigkeit:</strong> dieselbe Rechnung nur mit Ihren anderen Einkünften.</li>
+</ol>
+<p>Die <strong>Differenz</strong> ist die Steuer, die Ihre Selbstständigkeit zusätzlich auslöst. Sie berücksichtigt automatisch, dass Ihr Gewinn auf Ihr Gehalt „oben drauf“ kommt und deshalb mit Ihrem Grenzsteuersatz besteuert wird.</p>
+<figure><img src="../screenshots/ruecklage-ku.png" alt="Steuerrücklage"><figcaption>Abbildung 5: Beispiel A (fiktiv): Neben einem Gehalt von 38.000 € führen rund 24.800 € Jahresgewinn zu ca. 8.100 € Mehrsteuer – eine Quote von rund 33 %.</figcaption></figure>
+<div class="box"><strong>Faustregel aus Ihren Zahlen</strong>Unter dem Ergebnis steht Ihre persönliche Faustregel: „x % jeder Zahlung (netto) zurücklegen“. Bei Regelbesteuerung zusätzlich die enthaltene Umsatzsteuer, denn sie gehört nie Ihnen.</div>
+<h3>Vorauszahlungen</h3>
+<p>Nach der ersten Steuererklärung setzt das Finanzamt meist vierteljährliche Vorauszahlungen fest (10.03., 10.06., 10.09., 10.12.). Tragen Sie geleistete Vorauszahlungen im Startblatt ein; sie verringern die nötige Rücklage. Die erste Steuererklärung kann zu einer Nachzahlung für das Vorjahr <em>und</em> zu Vorauszahlungen für das laufende Jahr führen. Das ist der typische „Doppelschlag“, für den die Rücklage da ist.</p>
+</section>
+
+<section class="chapter">
+<h2>8. Kleinunternehmer-Monitor</h2>
+<p>Seit 01.01.2025 gilt (§ 19 Abs. 1 UStG): Kleinunternehmer ist, wessen Gesamtumsatz im Vorjahr 25.000 € nicht überschritten hat und im laufenden Jahr 100.000 € nicht überschreitet. Neu ist: Wer im laufenden Jahr die 100.000 € überschreitet, ist <strong>sofort</strong> – schon mit dem Umsatz, der die Grenze überschreitet – regelbesteuert. Im Jahr der Gründung gilt nach Verwaltungsauffassung die 25.000-€-Grenze.</p>
+<figure><img src="../screenshots/ku-monitor.png" alt="Kleinunternehmer-Monitor"><figcaption>Abbildung 6: Status, Spielraum und Hochrechnung. Beispiel A, fiktiv.</figcaption></figure>
+<table>
+<tr><th>Status</th><th>Bedeutung</th></tr>
+<tr><td>Alles im Rahmen</td><td>Sie bleiben unter 25.000 €; die Regelung ist auch im Folgejahr möglich.</td></tr>
+<tr><td>Noch im Rahmen, Hochrechnung über 25.000 €</td><td>Bei gleichem Tempo überschreiten Sie 25.000 €. Im Folgejahr gilt dann die Regelbesteuerung: Preise kalkulieren, Rechnungsvorlagen und Software vorbereiten.</td></tr>
+<tr><td>In diesem Jahr weiter Kleinunternehmer …</td><td>Sie liegen zwischen 25.000 € und der Jahresgrenze; ab 1. Januar Regelbesteuerung.</td></tr>
+<tr><td>Grenze überschritten</td><td>Ab der genannten Rechnung gilt die Regelbesteuerung. Sprechen Sie umgehend mit Ihrer Steuerberatung und korrigieren Sie ggf. Rechnungen.</td></tr>
+</table>
+<p class="small">Gezählt werden vereinnahmte Beträge der Kategorie „Umsatzerlöse“. Sonderfälle (steuerfreie Umsätze, Verkauf von Anlagevermögen, Auslandsumsätze) können abweichen.</p>
+</section>
+
+<section class="chapter">
+<h2>9. Umsatzsteuer-Voranmeldung vorbereiten</h2>
+<p>Bei Regelbesteuerung zeigt das Blatt <em>Umsatzsteuer</em> pro Monat und Quartal die Werte, die Sie in ELSTER übertragen. Die Kennzahlen (Kz) dienen der Orientierung. Prüfen Sie sie im Formular des jeweiligen Jahres, da sich Formulare ändern können.</p>
+<figure><img src="../screenshots/umsatzsteuer.png" alt="Umsatzsteuer"><figcaption>Abbildung 7: Monats- und Quartalswerte, inklusive Reverse-Charge-Leistungen. Beispiel B, fiktiv.</figcaption></figure>
+<ul>
+  <li>Abgabe grundsätzlich bis zum 10. des Folgemonats (bzw. nach Quartalsende), mit Dauerfristverlängerung einen Monat später.</li>
+  <li>Leistungen an Unternehmen im EU-Ausland gehören zusätzlich in die Zusammenfassende Meldung an das Bundeszentralamt für Steuern.</li>
+  <li>Kleinunternehmer müssen nur dann etwas anmelden, wenn § 13b-Steuer anfällt (Spalte „§ 13b USt“).</li>
+</ul>
+</section>
+
+<section class="chapter">
+<h2>10. EÜR zum Jahresende</h2>
+<figure><img src="../screenshots/euer.png" alt="EÜR" style="width:75%"><figcaption>Abbildung 8: Jahresübersicht nach Kategorien. Beispiel B, fiktiv.</figcaption></figure>
+<p>Die Gliederung orientiert sich an der Anlage EÜR. Beim Ausfüllen in ELSTER ordnen Sie die Summen den Zeilen des amtlichen Formulars zu. Das Blatt zeigt zwei Gewinnwerte:</p>
+<ul>
+  <li><strong>Gewinn laut EÜR:</strong> inklusive vereinnahmter Umsatzsteuer, gezahlter Vorsteuer und USt-Zahlungen. Dieser Wert entspricht der Logik der Anlage EÜR.</li>
+  <li><strong>Gewinn operativ:</strong> ohne USt-Bewegungen. Er ist unterjährig aussagekräftiger und Grundlage der Rücklage.</li>
+</ul>
+<div class="box warn"><strong>Vor der Abgabe prüfen</strong>Abschreibungen, private Kfz-Nutzung, Investitionsabzugsbeträge, Anlageverzeichnis und Entnahmen bildet das Cockpit nur vereinfacht oder gar nicht ab. Klären Sie diese Punkte vor der Abgabe.</div>
+</section>
+
+<section class="chapter">
+<h2>11. PRO: Stundensatz, Liquidität, Fristen</h2>
+<div class="two">
+<div>
+<h3>Stundensatz- &amp; Angebotsrechner</h3>
+<p>Geben Sie Ihr Wunsch-Netto, Vorsorgebeiträge, Betriebskosten und Ihre realistische Arbeitszeit ein. Das Blatt sucht den kleinsten Jahresgewinn (in 1.000-€-Schritten), bei dem nach Steuern und Vorsorge Ihr Wunsch-Netto übrig bleibt, und daraus den Mindest-Stundensatz.</p>
+<p>Darunter kalkulieren Sie Angebote mit Stunden, Fremdkosten und Risikoaufschlag.</p>
+</div>
+<div><figure><img src="../screenshots/stundensatz.png" alt="Stundensatz"><figcaption>Abbildung 9: Stundensatzrechner. Fiktive Werte.</figcaption></figure></div>
+</div>
+<h3>Liquiditätsplan</h3>
+<p>12 Monate im Voraus: Einnahmen, Ausgaben, Privatentnahmen, Steuer-Vorauszahlungen und Umsatzsteuer. Gelbe Zellen sind mit Vorschlägen aus Ihren Daten vorbelegt und können überschrieben werden. Monate unter Ihrer Mindestreserve werden gelb, negative Kontostände rot markiert.</p>
+<figure><img src="../screenshots/liquiditaet.png" alt="Liquidität"><figcaption>Abbildung 10: Liquiditätsplan. Beispiel B, fiktiv.</figcaption></figure>
+<h3>Steuerfristen 2027</h3>
+<p>Blatt <em>Fristen 2027</em> und die Kalenderdatei <span class="kbd">Steuerfristen-2027.ics</span> (Import in Google Kalender, Outlook, Apple Kalender) enthalten bundesweite Fristen, bereits auf Werktage verschoben, jeweils mit Erinnerung drei Tage vorher. Landesfeiertage sind nicht berücksichtigt.</p>
+</section>
+
+<section class="chapter">
+<h2>12. Routinen</h2>
+<div class="two">
+<div>
+<h3>Wöchentlich (10 Minuten)</h3>
+<ul class="check"><li>Neue Rechnungen eintragen</li><li>Zahlungseingänge ergänzen</li><li>Belege fotografieren und eintragen</li><li>Überfällige Rechnungen erinnern</li></ul>
+<h3>Monatlich (20 Minuten)</h3>
+<ul class="check"><li>Soll-Rücklage auf das Rücklagekonto überweisen</li><li>Stand Rücklagekonto im Startblatt aktualisieren</li><li>Kleinunternehmer-Status prüfen</li><li>USt-Voranmeldung übertragen (wenn regelbesteuert)</li></ul>
+</div>
+<div>
+<h3>Jährlich</h3>
+<ul class="check"><li>Neue Datei für das neue Steuerjahr anlegen</li><li>Vorjahresumsatz eintragen</li><li>Anlageverzeichnis/AfA prüfen</li><li>EÜR-Summen für ELSTER bzw. Steuerberatung bereitstellen</li><li>Belege vollständig und geordnet archivieren</li><li>Vorauszahlungsbescheide prüfen, ggf. Anpassung beantragen</li></ul>
+</div>
+</div>
+</section>
+
+<section class="chapter">
+<h2>13. Grenzen der Berechnung</h2>
+<p>Die Formeln folgen § 32a EStG, §§ 3, 4 SolzG, § 11 GewStG, § 35 EStG und § 19 UStG in der für 2025 und 2026 geltenden Fassung. Nicht oder nur vereinfacht berücksichtigt werden:</p>
+<ul>
+  <li>Kinderfreibeträge, Kindergeld-Günstigerprüfung, Entlastungsbetrag für Alleinerziehende</li>
+  <li>Verlustvorträge und -rückträge, außergewöhnliche Belastungen, Steuerermäßigungen (z. B. Handwerkerleistungen)</li>
+  <li>Progressionsvorbehalt (Elterngeld, Kurzarbeitergeld, Krankengeld), Kapitalerträge und Abgeltungsteuer</li>
+  <li>Kirchensteuer-Kappung und Abzug der Kirchensteuer als Sonderausgabe</li>
+  <li>Gewerbesteuerliche Hinzurechnungen und Kürzungen; vereinfachter § 35-Höchstbetrag</li>
+  <li>Vorsorgeaufwendungen werden in der Höhe angesetzt, die Sie eintragen (keine Höchstbetragsberechnung)</li>
+  <li>Hochrechnung ist linear; saisonale Schwankungen bitte über die Monatsangabe steuern</li>
+</ul>
+<div class="box red"><strong>Haftung</strong>Wir haben die Berechnungen sorgfältig erstellt und automatisiert gegen eine unabhängige Referenzimplementierung geprüft. Dennoch ist das Ergebnis eine Schätzung auf Basis Ihrer Eingaben. Für steuerliche Entscheidungen ziehen Sie bitte eine Steuerberatung hinzu. Die Haftung richtet sich nach unseren AGB.</div>
+</section>
+
+<section class="chapter">
+<h2>14. Häufige Fragen und Fehlerbehebung</h2>
+<h3>In einer Zelle steht „#NAME?“ oder „#WERT!“.</h3>
+<p>Meist wurde eine berechnete Zelle überschrieben oder ein Text statt einer Zahl eingegeben (z. B. „1.200 €“ als Text). Geben Sie Beträge ohne Währungszeichen ein. Falls nötig, laden Sie die Originaldatei erneut herunter und kopieren Sie Ihre Eingabespalten hinein (nur gelbe Spalten).</p>
+<h3>Ich habe mehr als 600 Rechnungen oder 1.000 Belege im Jahr.</h3>
+<p>Schreiben Sie uns. Für dieses Volumen ist eine Buchhaltungssoftware meist die bessere Wahl, und wir helfen gern bei der Einordnung.</p>
+<h3>Datum wird nicht erkannt.</h3>
+<p>Datum im Format TT.MM.JJJJ eingeben. In Google Sheets: <em>Datei → Einstellungen → Gebietsschema: Deutschland</em>.</p>
+<h3>Die Zahlen sehen „englisch“ aus (1,234.00).</h3>
+<p>Die Darstellung folgt der Spracheinstellung Ihres Programms bzw. Systems. Mit deutschem Gebietsschema erscheinen Zahlen als 1.234,00 €.</p>
+<h3>Kann ich das Cockpit für mehrere Firmen nutzen?</h3>
+<p>Die Lizenz gilt für Ihre eigene Nutzung. Für jede Firma bzw. jede selbstständige Person benötigen Sie eine eigene Lizenz. Details in den AGB.</p>
+<h3>Wie erhalte ich die Ausgabe 2027?</h3>
+<p>Sobald die amtlichen Werte für 2027 feststehen, erscheint eine neue Ausgabe. Bestandskunden informieren wir per E-Mail, sofern sie dem zugestimmt haben.</p>
+<p class="small" style="margin-top:10mm">Freikontor Finanzcockpit · Version 2026.1 · Support über das Kontaktformular auf der Website.</p>
+</section>
+</body>
+</html>
