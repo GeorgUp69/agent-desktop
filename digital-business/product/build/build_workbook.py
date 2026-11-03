@@ -832,7 +832,7 @@ def build_ku(wb):
 def build_dashboard(wb):
     ws = wb.create_sheet("Dashboard", 1)
     title(ws, "Dashboard", None)
-    ws["B2"] = '=IF(Start!$C$6="","","Für "&Start!$C$6&" · ")&"Steuerjahr "&S_Jahr&" · Stand "&TEXT(TODAY(),"DD.MM.YYYY")'
+    ws["B2"] = '=IF(Start!$C$6="","","Für "&Start!$C$6&" · ")&"Steuerjahr "&S_Jahr&" · Stand "&TEXT(DAY(TODAY()),"00")&"."&TEXT(MONTH(TODAY()),"00")&"."&YEAR(TODAY())'
     ws["B2"].font = font(10, False, GREY, True)
     ws.sheet_properties.tabColor = BRASS
     for col in "BCDEFGH":

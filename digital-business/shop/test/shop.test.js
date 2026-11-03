@@ -28,6 +28,7 @@ describe('Seiten, Links und Sicherheit', () => {
       for (const m of body.matchAll(/href="(\/[^"#?]*)/g)) seen.add(m[1]);
       for (const m of body.matchAll(/src="(\/[^"?]+)/g)) seen.add(m[1]);
       for (const m of body.matchAll(/srcset="(\/[^" ]+)/g)) seen.add(m[1]);
+      for (const m of body.matchAll(/<meta property="og:image" content="https?:\/\/[^/]+(\/[^"]+)"/g)) seen.add(m[1]);
     }
     for (const link of seen) {
       const r = await shop.get(link);

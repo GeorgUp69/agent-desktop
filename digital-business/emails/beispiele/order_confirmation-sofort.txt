@@ -1,0 +1,162 @@
+An: testkunde-a@example.org
+Betreff: Bestellbestätigung FK-8MVG-ACGR – Finanzcockpit 2026 PRO
+
+Hallo,
+
+vielen Dank für deine Bestellung. Deine Zahlung ist eingegangen, und hiermit bestätigen wir den Vertragsschluss.
+
+Bestellnummer: FK-8MVG-ACGR
+Bestellt am: 03.11.2026, 18:00
+Produkt: Finanzcockpit 2026 PRO (digitaler Inhalt zum Download), Menge 1
+Gezahlter Betrag: 49,00 € – Gemäß § 19 UStG wird keine Umsatzsteuer berechnet.
+Rechnungsnummer: FK-2026-00001
+
+DEIN DOWNLOAD
+https://www.deine-domain.de/downloads/vo6kS0J7A6DOE_r6WRnQKnkmL_A9rtFOATqxD86CN6Q
+Der Link ist bis 03.12.2026 gültig. Einen neuen Link bekommst du jederzeit unter https://www.deine-domain.de/meine-downloads.
+Enthalten: Finanzcockpit 2026 PRO (ZIP: Excel-Arbeitsmappe, 2 Beispieldateien, Handbuch, Schnellstart, Checklisten, Fristenkalender)
+
+BESTÄTIGUNG DEINER ERKLÄRUNGEN
+Du hast im Bestellprozess am 03.11.2026, 18:00 ausdrücklich verlangt, dass wir vor Ablauf der Widerrufsfrist mit der Bereitstellung der digitalen Inhalte beginnen, und bestätigt, dass dir bekannt ist, dass du dadurch mit Beginn der Bereitstellung dein Widerrufsrecht verlierst. Mit dem Versand dieses Download-Links haben wir mit der Bereitstellung begonnen; dein Widerrufsrecht ist damit erloschen (§ 356 Abs. 5 BGB).
+
+RECHNUNG
+https://www.deine-domain.de/rechnung/lbF87mX0wwU5N55LFYqPjoeH6TJu0zsg
+
+ANBIETER
+Testfirma (Platzhalter)
+Teststraße 1
+12345 Teststadt
+Deutschland
+E-Mail: kontakt@example.org · Telefon: +49 000 000000
+
+Hinweis: Das Finanzcockpit ist ein Werkzeug zur Organisation und Schätzung und ersetzt keine Steuerberatung.
+
+Viel Erfolg!
+Freikontor
+
+────────────────────────────────────────
+ALLGEMEINE GESCHÄFTSBEDINGUNGEN (Stand 2026-11-03)
+Allgemeine Geschäftsbedingungen
+
+Stand: 03.11.2026
+
+§ 1 Geltungsbereich
+
+(1) Diese AGB gelten für alle Verträge über digitale Produkte, die Sie über die Website https://www.deine-domain.de mit Testfirma (Platzhalter), Teststraße 1, 12345 Teststadt („wir“) schließen.
+
+(2) Verbraucher ist jede natürliche Person, die ein Rechtsgeschäft zu Zwecken abschließt, die überwiegend weder ihrer gewerblichen noch ihrer selbständigen beruflichen Tätigkeit zugerechnet werden können (§ 13 BGB). Unternehmer ist jede natürliche oder juristische Person oder rechtsfähige Personengesellschaft, die bei Abschluss eines Rechtsgeschäfts in Ausübung ihrer gewerblichen oder selbständigen beruflichen Tätigkeit handelt (§ 14 BGB).
+
+(3) Abweichende Bedingungen von Kundinnen und Kunden gelten nicht, es sei denn, wir stimmen ihnen ausdrücklich zu.
+
+§ 2 Vertragsgegenstand
+
+(1) Wir verkaufen digitale Inhalte zum Download, insbesondere Tabellenkalkulations-Arbeitsmappen (Dateiformat .xlsx), PDF-Dokumente und Kalenderdateien. Der Leistungsumfang ergibt sich aus der Produktbeschreibung zum Zeitpunkt der Bestellung.
+
+(2) Zur Nutzung benötigen Sie ein Tabellenkalkulationsprogramm, das .xlsx-Dateien verarbeitet (z. B. Microsoft Excel ab Version 2016, LibreOffice Calc ab Version 7 oder Google Sheets), sowie ein Programm zum Öffnen von PDF-Dateien.
+
+(3) Die Produkte sind Werkzeuge zur eigenen Organisation und Schätzung. Sie stellen keine Steuer- oder Rechtsberatung dar und ersetzen keine Steuererklärung. Berechnungen beruhen auf Ihren Eingaben und den in Handbuch und Produktbeschreibung genannten vereinfachenden Annahmen. Diese Annahmen sind Teil der vereinbarten Beschaffenheit.
+
+§ 3 Vertragsschluss
+
+(1) Die Darstellung der Produkte auf der Website ist kein rechtlich bindendes Angebot, sondern eine Aufforderung zur Bestellung.
+
+(2) Im Bestellprozess wählen Sie eine Edition, geben Ihre E-Mail-Adresse ein und können Ihre Eingaben bis zum Absenden über die Eingabefelder prüfen und korrigieren. Mit Klick auf die Schaltfläche „Zahlungspflichtig bestellen“ geben Sie ein verbindliches Angebot zum Abschluss eines Kaufvertrags ab. Anschließend werden Sie zur Zahlung an unseren Zahlungsdienstleister Stripe weitergeleitet.
+
+(3) Wir nehmen Ihr Angebot an, indem wir Ihnen nach Eingang der Zahlung eine Bestellbestätigung per E-Mail senden. Wird die Zahlung nicht innerhalb von 24 Stunden nach Absenden der Bestellung abgeschlossen, sind Sie an Ihr Angebot nicht mehr gebunden und die Bestellung verfällt.
+
+(4) Vertragssprache ist Deutsch. Wir speichern den Vertragstext. Die AGB und die Widerrufsbelehrung senden wir Ihnen mit der Bestellbestätigung per E-Mail; sie sind außerdem jederzeit auf dieser Website abrufbar.
+
+§ 4 Preise und Zahlung
+
+(1) Alle Preise sind Endpreise. Gemäß § 19 UStG erheben wir keine Umsatzsteuer und weisen diese daher auch nicht aus. Versandkosten fallen nicht an.
+
+(2) Die Zahlung erfolgt über Stripe mit den im Bestellprozess angezeigten Zahlungsarten (z. B. Kredit- oder Debitkarte, Apple Pay, Google Pay, PayPal). Der Kaufpreis ist mit Abschluss der Bestellung sofort fällig.
+
+(3) Sie erhalten eine Rechnung im Format einer Kleinbetragsrechnung bzw. Rechnung nach § 14 UStG über den Link in der Bestellbestätigung.
+
+§ 5 Bereitstellung
+
+(1) Wir stellen die digitalen Inhalte über einen persönlichen, zeitlich begrenzten Download-Link bereit, den wir per E-Mail versenden. Einen neuen Link können Sie jederzeit unter „Meine Downloads“ mit Ihrer Bestell-E-Mail-Adresse anfordern. Bitte speichern Sie die Dateien nach dem Download dauerhaft.
+
+(2) Haben Sie als Verbraucher im Bestellprozess ausdrücklich zugestimmt, dass wir vor Ablauf der Widerrufsfrist mit der Bereitstellung beginnen, und Ihre Kenntnis vom Verlust des Widerrufsrechts bestätigt, erfolgt die Bereitstellung unmittelbar nach Zahlungseingang. Andernfalls stellen wir die Inhalte nach Ablauf der Widerrufsfrist bereit.
+
+§ 6 Nutzungsrechte
+
+(1) Mit vollständiger Zahlung erhalten Sie ein einfaches, zeitlich unbeschränktes, nicht übertragbares Recht, die Inhalte für eigene Zwecke einer Person bzw. eines Unternehmens zu nutzen, zu speichern, auszudrucken und für die eigene Nutzung anzupassen.
+
+(2) Nicht gestattet ist es, die Inhalte ganz oder teilweise – auch in veränderter Form – weiterzuverkaufen, zu verschenken, öffentlich zugänglich zu machen, als Vorlage in eigenen Produkten zu vertreiben oder Dritten zur Verfügung zu stellen. Steuerberaterinnen und Steuerberater sowie Dienstleister dürfen die Dateien eines Kunden zur Bearbeitung für diesen Kunden verwenden. Für die Nutzung in mehreren Unternehmen ist je Unternehmen eine Lizenz erforderlich.
+
+§ 7 Widerrufsrecht
+
+Verbraucherinnen und Verbrauchern steht ein Widerrufsrecht nach Maßgabe der Widerrufsbelehrung (/widerrufsbelehrung) zu. Der Widerruf kann auch über die Funktion „Vertrag widerrufen“ auf dieser Website erklärt werden.
+
+§ 8 Mängelrechte und Aktualisierungen
+
+(1) Es gelten die gesetzlichen Mängelrechte, für Verbraucher insbesondere die §§ 327 ff. BGB. Wir stellen Aktualisierungen bereit, die zum Erhalt der Vertragsmäßigkeit erforderlich sind, und informieren Sie darüber per E-Mail.
+
+(2) Steuerliche Werte eines Veranlagungsjahres (z. B. Tarif 2026) bleiben für dieses Jahr gültig. Die Anpassung an Rechtsänderungen künftiger Jahre ist nicht geschuldet. Hierfür bieten wir neue Jahresausgaben an.
+
+§ 9 Haftung
+
+(1) Wir haften unbeschränkt bei Vorsatz und grober Fahrlässigkeit, bei der Verletzung von Leben, Körper oder Gesundheit, nach dem Produkthaftungsgesetz sowie im Umfang einer übernommenen Garantie.
+
+(2) Bei leicht fahrlässiger Verletzung einer wesentlichen Vertragspflicht, deren Erfüllung die ordnungsgemäße Durchführung des Vertrags überhaupt erst ermöglicht und auf deren Einhaltung Sie regelmäßig vertrauen dürfen, ist die Haftung auf den vertragstypischen, vorhersehbaren Schaden begrenzt. Im Übrigen ist die Haftung für leichte Fahrlässigkeit ausgeschlossen.
+
+(3) Die vorstehenden Beschränkungen gelten auch zugunsten unserer Erfüllungsgehilfen.
+
+§ 10 Streitbeilegung
+
+Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+
+§ 11 Schlussbestimmungen
+
+(1) Es gilt das Recht der Bundesrepublik Deutschland unter Ausschluss des UN-Kaufrechts. Bei Verbrauchern gilt diese Rechtswahl nur, soweit nicht der Schutz durch zwingende Bestimmungen des Rechts des Staates, in dem sie ihren gewöhnlichen Aufenthalt haben, entzogen wird.
+
+(2) Sind Sie Kaufmann, juristische Person des öffentlichen Rechts oder öffentlich-rechtliches Sondervermögen, ist Gerichtsstand für alle Streitigkeiten unser Geschäftssitz.
+
+(3) Sollte eine Bestimmung dieser AGB unwirksam sein, bleibt die Wirksamkeit der übrigen Bestimmungen unberührt.
+
+────────────────────────────────────────
+Widerrufsbelehrung
+
+Verbraucherinnen und Verbrauchern steht ein Widerrufsrecht nach folgender Maßgabe zu. Verbraucher ist jede natürliche Person, die ein Rechtsgeschäft zu Zwecken abschließt, die überwiegend weder ihrer gewerblichen noch ihrer selbständigen beruflichen Tätigkeit zugerechnet werden können (§ 13 BGB).
+
+Widerrufsrecht
+
+Sie haben das Recht, binnen vierzehn Tagen ohne Angabe von Gründen diesen Vertrag zu widerrufen.
+
+Die Widerrufsfrist beträgt vierzehn Tage ab dem Tag des Vertragsabschlusses.
+
+Um Ihr Widerrufsrecht auszuüben, müssen Sie uns (Testfirma (Platzhalter), Teststraße 1, 12345 Teststadt, Deutschland, Telefon: +49 000 000000, E-Mail: kontakt@example.org) mittels einer eindeutigen Erklärung (z. B. ein mit der Post versandter Brief oder E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren. Sie können dafür das beigefügte Muster-Widerrufsformular verwenden, das jedoch nicht vorgeschrieben ist. Sie können Ihren Widerruf auch über die Widerrufsfunktion auf unserer Website erklären: https://www.deine-domain.de/vertrag-widerrufen („Vertrag widerrufen“). Den Eingang eines solchen Widerrufs bestätigen wir Ihnen unverzüglich per E-Mail.
+
+Zur Wahrung der Widerrufsfrist reicht es aus, dass Sie die Mitteilung über die Ausübung des Widerrufsrechts vor Ablauf der Widerrufsfrist absenden.
+
+Folgen des Widerrufs
+
+Wenn Sie diesen Vertrag widerrufen, haben wir Ihnen alle Zahlungen, die wir von Ihnen erhalten haben, unverzüglich und spätestens binnen vierzehn Tagen ab dem Tag zurückzuzahlen, an dem die Mitteilung über Ihren Widerruf dieses Vertrags bei uns eingegangen ist. Für diese Rückzahlung verwenden wir dasselbe Zahlungsmittel, das Sie bei der ursprünglichen Transaktion eingesetzt haben, es sei denn, mit Ihnen wurde ausdrücklich etwas anderes vereinbart; in keinem Fall werden Ihnen wegen dieser Rückzahlung Entgelte berechnet.
+
+Besonderer Hinweis zum vorzeitigen Erlöschen
+
+Ihr Widerrufsrecht erlischt bei einem Vertrag über die Bereitstellung von nicht auf einem körperlichen Datenträger befindlichen digitalen Inhalten, wenn wir mit der Ausführung des Vertrags begonnen haben, nachdem Sie ausdrücklich zugestimmt haben, dass wir mit der Ausführung des Vertrags vor Ablauf der Widerrufsfrist beginnen, Sie Ihre Kenntnis davon bestätigt haben, dass durch Ihre Zustimmung mit Beginn der Ausführung des Vertrags Ihr Widerrufsrecht erlischt, und wir Ihnen eine Bestätigung des Vertrags auf einem dauerhaften Datenträger (E-Mail) zur Verfügung gestellt haben (§ 356 Abs. 5 BGB).
+
+Ob Sie diese Zustimmung erteilen, entscheiden Sie im Bestellprozess selbst. Ohne Zustimmung bleibt Ihr Widerrufsrecht bestehen; den Download stellen wir Ihnen dann nach Ablauf der Widerrufsfrist bereit.
+
+Muster-Widerrufsformular
+
+(Wenn Sie den Vertrag widerrufen wollen, dann füllen Sie bitte dieses Formular aus und senden Sie es zurück.)
+
+– An Testfirma (Platzhalter), Teststraße 1, 12345 Teststadt, Deutschland, E-Mail: kontakt@example.org:
+
+– Hiermit widerrufe(n) ich/wir (*) den von mir/uns (*) abgeschlossenen Vertrag über den Kauf der folgenden Waren (*)/die Erbringung der folgenden Dienstleistung (*)/die Bereitstellung der folgenden digitalen Inhalte (*)
+
+– Bestellt am (*)/erhalten am (*)
+
+– Name des/der Verbraucher(s)
+
+– Anschrift des/der Verbraucher(s)
+
+– Unterschrift des/der Verbraucher(s) (nur bei Mitteilung auf Papier)
+
+– Datum
+
+(*) Unzutreffendes streichen.

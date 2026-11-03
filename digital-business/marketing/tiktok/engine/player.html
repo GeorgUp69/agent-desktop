@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Freikontor Video Player</title>
+<style>
+:root { --ink:#14213D; --ink2:#1D2E52; --green:#1F6F5C; --green-l:#E4F1EC; --brass:#C8A24A; --paper:#F7F5F0; --red:#B42318; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--ink); }
+body { font-family: "Inter", sans-serif; -webkit-font-smoothing: antialiased; }
+#stage { position: relative; width: 1080px; height: 1920px; overflow: hidden; }
+.bg { position: absolute; inset: 0; }
+.bg.ink { background: radial-gradient(1200px 900px at 20% 10%, #22345C 0%, var(--ink) 60%); }
+.bg.paper { background: radial-gradient(1200px 900px at 80% 0%, #FFFFFF 0%, var(--paper) 55%); }
+.bg.green { background: radial-gradient(1200px 900px at 20% 0%, #2A8A73 0%, var(--green) 60%); }
+.blob { position: absolute; width: 900px; height: 900px; border-radius: 50%; filter: blur(80px); opacity: .35; }
+.scene { position: absolute; inset: 0; display: none; padding: 330px 90px 420px; flex-direction: column; justify-content: center; }
+.scene.on { display: flex; }
+.dark { color: #fff; }
+.light { color: var(--ink); }
+.el { will-change: transform, opacity; }
+.hook { font: 800 108px/1.04 "Inter Display", "Inter", sans-serif; letter-spacing: -0.035em; }
+.hook .w { display: inline-block; margin-right: .22em; }
+.accent-brass { color: var(--brass); }
+.accent-green { color: #3FBF9B; }
+.light .accent-green { color: var(--green); }
+.title { font: 800 88px/1.06 "Inter Display", "Inter", sans-serif; letter-spacing: -0.03em; }
+.title.m { font-size: 74px; }
+.kicker { font: 700 40px/1.2 "Inter", sans-serif; letter-spacing: .01em; color: var(--brass); margin-bottom: 28px; }
+.light .kicker { color: var(--green); }
+.body { font: 500 52px/1.32 "Inter", sans-serif; margin-top: 34px; opacity: .92; }
+.sub { font: 600 46px/1.3 "Inter", sans-serif; margin-top: 36px; opacity: .85; }
+.note { position: absolute; left: 90px; right: 90px; bottom: 470px; font: 500 30px/1.3 "Inter", sans-serif; opacity: .7; }
+.cap { position: absolute; left: 70px; right: 140px; bottom: 560px; display: flex; justify-content: center; }
+.cap span { background: #fff; color: var(--ink); font: 700 44px/1.25 "Inter", sans-serif; padding: 16px 26px; border-radius: 18px; box-shadow: 0 10px 40px rgba(0,0,0,.25); text-align: center; }
+.big { font: 800 196px/1 "Inter Display", "Inter", sans-serif; letter-spacing: -0.045em; font-variant-numeric: tabular-nums; }
+.label { font: 700 48px/1.2 "Inter", sans-serif; opacity: .85; margin-bottom: 26px; }
+.shotbox { position: relative; width: 100%; height: 760px; border-radius: 34px; overflow: hidden; background: #fff; box-shadow: 0 40px 120px rgba(0,0,0,.35); margin-top: 46px; border: 2px solid rgba(255,255,255,.6); }
+.shotbox img { position: absolute; left: 0; top: 0; transform-origin: 0 0; }
+.hl { position: absolute; border: 8px solid var(--brass); border-radius: 18px; box-shadow: 0 0 0 4000px rgba(20,33,61,.28); }
+.list { margin-top: 40px; display: grid; gap: 26px; }
+.item { display: flex; gap: 28px; align-items: center; font: 700 56px/1.2 "Inter", sans-serif; background: rgba(255,255,255,.08); padding: 26px 30px; border-radius: 24px; }
+.light .item { background: #fff; box-shadow: 0 10px 40px rgba(20,33,61,.08); }
+.ico { flex: 0 0 72px; height: 72px; border-radius: 20px; background: var(--green); color: #fff; display: grid; place-items: center; font: 800 42px/1 "Inter", sans-serif; }
+.ico.x { background: var(--red); }
+.cmp { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; margin-top: 46px; }
+.col { border-radius: 30px; padding: 40px 34px; min-height: 520px; display: flex; flex-direction: column; justify-content: space-between; }
+.col.l { background: rgba(255,255,255,.08); border: 2px dashed rgba(255,255,255,.35); }
+.light .col.l { background: #EFEDE6; border-color: #C9C4B6; }
+.col.r { background: var(--green); color: #fff; }
+.col .lab { font: 800 40px/1.2 "Inter", sans-serif; text-transform: uppercase; letter-spacing: .04em; opacity: .8; }
+.col .val { font: 800 76px/1.08 "Inter Display", "Inter", sans-serif; letter-spacing: -0.03em; }
+.col .s { font: 600 36px/1.3 "Inter", sans-serif; opacity: .85; }
+.bar { margin-top: 56px; height: 76px; border-radius: 40px; background: rgba(255,255,255,.14); overflow: hidden; position: relative; }
+.light .bar { background: #E3E0D8; }
+.bar i { position: absolute; left: 0; top: 0; bottom: 0; background: linear-gradient(90deg, var(--green), #3FBF9B); border-radius: 40px; }
+.bar.warn i { background: linear-gradient(90deg, var(--brass), #E8BE55); }
+.barlab { display: flex; justify-content: space-between; font: 700 40px/1.2 "Inter", sans-serif; margin-top: 22px; opacity: .85; }
+.q { background: #fff; color: var(--ink); font: 800 64px/1.15 "Inter Display", "Inter", sans-serif; letter-spacing: -0.02em; padding: 44px 46px; border-radius: 36px 36px 36px 8px; box-shadow: 0 20px 60px rgba(0,0,0,.25); }
+.qtag { font: 700 32px/1 "Inter", sans-serif; color: var(--brass); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 26px; }
+.a { margin-top: 40px; font: 600 54px/1.3 "Inter", sans-serif; border-left: 10px solid var(--brass); padding-left: 34px; }
+.cta { align-items: center; text-align: center; }
+.mark { width: 190px; height: 190px; }
+.cta .t { font: 800 100px/1.04 "Inter Display", "Inter", sans-serif; letter-spacing: -0.035em; margin-top: 48px; }
+.cta .p { font: 700 54px/1.25 "Inter", sans-serif; margin-top: 30px; opacity: .9; }
+.btn { margin-top: 60px; background: var(--brass); color: var(--ink); font: 800 58px/1 "Inter", sans-serif; padding: 38px 70px; border-radius: 999px; box-shadow: 0 20px 60px rgba(200,162,74,.35); }
+.small { font: 500 30px/1.3 "Inter", sans-serif; opacity: .65; margin-top: 44px; }
+.wm { position: absolute; top: 240px; left: 90px; display: flex; align-items: center; gap: 16px; font: 800 38px/1 "Inter", sans-serif; letter-spacing: -0.01em; opacity: .9; }
+.wm svg { width: 52px; height: 52px; }
+.progress { position: absolute; left: 0; top: 0; height: 10px; background: var(--brass); }
+.num { position: absolute; top: 320px; right: 90px; font: 800 300px/1 "Inter Display", sans-serif; opacity: .08; letter-spacing: -0.05em; }
+</style>
+</head>
+<body>
+<div id="stage"></div>
+<script src="storyboards.js"></script>
+<script src="engine.js"></script>
+</body>
+</html>

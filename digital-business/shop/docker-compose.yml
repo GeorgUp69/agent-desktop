@@ -1,0 +1,26 @@
+services:
+  shop:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      BUSINESS_FILE: /app/config/business.json
+    volumes:
+      - ./data:/app/data
+      - ./storage/products:/app/storage/products:ro
+      - ./business.json:/app/config/business.json:ro
+    expose:
+      - "3000"
+  caddy:
+    image: caddy:2.10
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+    depends_on:
+      - shop
+volumes:
+  caddy_data:

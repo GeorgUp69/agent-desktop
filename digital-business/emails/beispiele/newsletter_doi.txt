@@ -1,0 +1,13 @@
+An: testkunde-a@example.org
+Betreff: Bitte bestätige deine Newsletter-Anmeldung
+
+Hallo,
+
+bitte bestätige deine Anmeldung zum Freikontor-Newsletter mit einem Klick:
+https://www.deine-domain.de/newsletter/bestaetigen/qOtI5dhz8oHLlhE0i7Trbn7v94lWyXda
+
+Wir schreiben selten: neue Jahresausgaben, wichtige Steueränderungen für Selbstständige und Angebote. Abmelden kannst du dich jederzeit mit einem Klick in jeder E-Mail.
+
+Du hast dich nicht angemeldet? Dann ignoriere diese E-Mail – ohne Bestätigung senden wir nichts.
+
+Abmelden: https://www.deine-domain.de/newsletter/abmelden?e=testkunde-a%40example.org&t=nvJEnX2cdI-aiiiClaV1dQAMSlIe3JZETi5grfwRczk

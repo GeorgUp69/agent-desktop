@@ -1,0 +1,11 @@
+An: owner@example.org
+Betreff: [Shop] Widerruf W-R72MF2EM
+
+Name: Test Person
+E-Mail: testkunde-b@example.org
+Bestellnummer: FK-RUL2-W52K
+Eingang: 2026-11-03T17:00:50.573Z
+
+Hiermit widerrufe ich den Vertrag.
+
+Automatisch erstattet (Bestellung war noch nicht ausgeliefert).

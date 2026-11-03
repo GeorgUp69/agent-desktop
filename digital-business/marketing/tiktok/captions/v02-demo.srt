@@ -1,0 +1,23 @@
+1
+00:00:00,150 --> 00:00:02,900
+Wie viel Steuer musst du zurücklegen? In drei Schritten.
+
+2
+00:00:03,150 --> 00:00:07,500
+Schritt eins: Rechnungen eintragen. Überfällige markiert das Cockpit automatisch.
+
+3
+00:00:07,750 --> 00:00:12,100
+Schritt zwei: Belege mit Bruttobetrag eintragen. Vorsteuer und Netto rechnen sich selbst.
+
+4
+00:00:12,350 --> 00:00:17,100
+Schritt drei: Rücklage ablesen. Fertig.
+
+5
+00:00:17,350 --> 00:00:21,100
+Dazu bekommst du deine persönliche Faustregel. Im Beispiel: 33 Prozent jeder Zahlung.
+
+6
+00:00:21,350 --> 00:00:24,700
+Finanzcockpit 2026. Link in der Bio.

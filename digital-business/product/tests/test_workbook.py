@@ -26,11 +26,15 @@ from sample_data import SAMPLES  # noqa: E402
 TMP = Path(tempfile.mkdtemp(prefix="fk-test-"))
 
 
-def recalc(path):
-    out = TMP / "out"
+def recalc(path, lang=None):
+    out = TMP / ("out-" + lang if lang else "out")
     out.mkdir(exist_ok=True)
-    subprocess.run(["soffice", "--headless", "--calc", "--convert-to", "xlsx", "--outdir", str(out), str(path)],
-                   check=True, capture_output=True, timeout=180)
+    env = dict(__import__("os").environ)
+    cmd = ["soffice", "--headless", "--calc", "--convert-to", "xlsx", "--outdir", str(out), str(path)]
+    if lang:
+        env.update(LANG=lang, LC_ALL=lang)
+        cmd.insert(1, "-env:UserInstallation=file://" + str(TMP / ("profile-" + lang)))
+    subprocess.run(cmd, check=True, capture_output=True, timeout=180, env=env)
     return load_workbook(out / path.name, data_only=True)
 
 
@@ -141,6 +145,24 @@ class SampleTest(unittest.TestCase):
             row = next(r for r in range(6, 406) if ws[f"G{r}"].value == needed)
             self.assertGreaterEqual(ws[f"K{row}"].value, ws["C5"].value * 12, k)
             self.assertLess(ws[f"K{row-1}"].value, ws["C5"].value * 12, k)
+
+
+class LocaleTest(unittest.TestCase):
+    def test_dashboard_date_is_locale_independent(self):
+        """Datum im Dashboard bei deutscher Spracheinstellung als TT.MM.JJJJ. Die Formel nutzt bewusst keine sprachabhängigen TEXT-Datumscodes."""
+        import os
+        path = TMP / "locale.xlsx"
+        bw.build("basis", path, sample=SAMPLES["A-Kleinunternehmerin"])
+        wb = load_workbook(path)
+        for ws in wb:
+            ws.sheet_state = "visible" if ws.title == "Dashboard" else "hidden"
+        wb.active = wb.sheetnames.index("Dashboard")
+        wb.save(path)
+        env = {**os.environ, "LANG": "de_DE.UTF-8", "LC_ALL": "de_DE.UTF-8"}
+        subprocess.run(["soffice", "-env:UserInstallation=file://" + str(TMP / "profile-de"), "--headless", "--convert-to", "pdf",
+                        "--outdir", str(TMP), str(path)], check=True, capture_output=True, timeout=180, env=env)
+        text = subprocess.run(["pdftotext", str(TMP / "locale.pdf"), "-"], capture_output=True, text=True, check=True).stdout
+        self.assertRegex(text, r"Stand \d{2}\.\d{2}\.\d{4}")
 
 
 class KleinunternehmerTest(unittest.TestCase):

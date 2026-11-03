@@ -1,0 +1,396 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Freikontor//Steuerfristen 2027//DE
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Steuerfristen 2027 (Freikontor)
+BEGIN:VEVENT
+UID:freikontor-2027-0@freikontor.invalid
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+SUMMARY:USt-Voranmeldung Dezember 2026 (monatlich\, ohne Dauerfristverlängerung)
+DESCRIPTION:Betrifft: Regelbesteuerte\, monatliche Abgabe. Frist auf Werktag verschoben. Regionale Feiertage selbst prüfen.
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Steuerfrist in 3 Tagen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:freikontor-2027-1@freikontor.invalid
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+SUMMARY:USt-Voranmeldung Q4 2026 (vierteljährlich\, ohne Dauerfristverlängerung)
+DESCRIPTION:Betrifft: Regelbesteuerte\, vierteljährliche Abgabe. Frist auf Werktag verschoben. Regionale Feiertage selbst prüfen.
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Steuerfrist in 3 Tagen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:freikontor-2027-2@freikontor.invalid
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270126
+SUMMARY:Zusammenfassende Meldung (vierteljährlich)
+DESCRIPTION:Betrifft: Leistungen an Unternehmen im EU-Ausland. Frist auf Werktag verschoben. Regionale Feiertage selbst prüfen.
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Steuerfrist in 3 Tagen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:freikontor-2027-3@freikontor.invalid
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:USt-Voranmeldung Januar (monatlich\, ohne Dauerfristverlängerung)
+DESCRIPTION:Betrifft: Regelbesteuerte\, monatliche Abgabe. Frist auf Werktag verschoben. Regionale Feiertage selbst prüfen.
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Steuerfrist in 3 Tagen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:freikontor-2027-4@freikontor.invalid
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:Antrag Dauerfristverlängerung + Sondervorauszahlung 2027
+DESCRIPTION:Betrifft: Monatliche USt-Abgabe. Frist auf Werktag verschoben. Regionale Feiertage selbst prüfen.
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Steuerfrist in 3 Tagen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:freikontor-2027-5@freikontor.invalid
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:Gewerbesteuer-Vorauszahlung (laut Bescheid)
+DESCRIPTION:Betrifft: Gewerbetreibende mit Bescheid. Frist auf Werktag verschoben. Regionale Feiertage selbst prüfen.
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Steuerfrist in 3 Tagen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:freikontor-2027-6@freikontor.invalid
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+SUMMARY:USt-Voranmeldung Februar (monatlich\, ohne Dauerfristverlängerung)
+DESCRIPTION:Betrifft: Regelbesteuerte\, monatliche Abgabe. Frist auf Werktag verschoben. Regionale Feiertage selbst prüfen.
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Steuerfrist in 3 Tagen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:freikontor-2027-7@freikontor.invalid
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+SUMMARY:Einkommensteuer-Vorauszahlung (laut Bescheid)
+DESCRIPTION:Betrifft: Alle mit Vorauszahlungsbescheid. Frist auf Werktag verschoben. Regionale Feiertage selbst prüfen.
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Steuerfrist in 3 Tagen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:freikontor-2027-8@freikontor.invalid
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270412
+DTEND;VALUE=DATE:20270413
+SUMMARY:USt-Voranmeldung März (monatlich\, ohne Dauerfristverlängerung)
+DESCRIPTION:Betrifft: Regelbesteuerte\, monatliche Abgabe. Frist auf Werktag verschoben. Regionale Feiertage selbst prüfen.
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Steuerfrist in 3 Tagen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:freikontor-2027-9@freikontor.invalid
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270412
+DTEND;VALUE=DATE:20270413
+SUMMARY:USt-Voranmeldung Q1 (vierteljährlich\, ohne Dauerfristverlängerung)
+DESCRIPTION:Betrifft: Regelbesteuerte\, vierteljährliche Abgabe. Frist auf Werktag verschoben. Regionale Feiertage selbst prüfen.
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Steuerfrist in 3 Tagen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:freikontor-2027-10@freikontor.invalid
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270426
+DTEND;VALUE=DATE:20270427
+SUMMARY:Zusammenfassende Meldung (vierteljährlich)
+DESCRIPTION:Betrifft: Leistungen an Unternehmen im EU-Ausland. Frist auf Werktag verschoben. Regionale Feiertage selbst prüfen.
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Steuerfrist in 3 Tagen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:freikontor-2027-11@freikontor.invalid
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270510
+DTEND;VALUE=DATE:20270511
+SUMMARY:USt-Voranmeldung April (monatlich\, ohne Dauerfristverlängerung)
+DESCRIPTION:Betrifft: Regelbesteuerte\, monatliche Abgabe. Frist auf Werktag verschoben. Regionale Feiertage selbst prüfen.
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Steuerfrist in 3 Tagen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:freikontor-2027-12@freikontor.invalid
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270518
+DTEND;VALUE=DATE:20270519
+SUMMARY:Gewerbesteuer-Vorauszahlung (laut Bescheid)
+DESCRIPTION:Betrifft: Gewerbetreibende mit Bescheid. Frist auf Werktag verschoben. Regionale Feiertage selbst prüfen.
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Steuerfrist in 3 Tagen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:freikontor-2027-13@freikontor.invalid
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270610
+DTEND;VALUE=DATE:20270611
+SUMMARY:USt-Voranmeldung Mai (monatlich\, ohne Dauerfristverlängerung)
+DESCRIPTION:Betrifft: Regelbesteuerte\, monatliche Abgabe. Frist auf Werktag verschoben. Regionale Feiertage selbst prüfen.
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Steuerfrist in 3 Tagen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:freikontor-2027-14@freikontor.invalid
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270610
+DTEND;VALUE=DATE:20270611
+SUMMARY:Einkommensteuer-Vorauszahlung (laut Bescheid)
+DESCRIPTION:Betrifft: Alle mit Vorauszahlungsbescheid. Frist auf Werktag verschoben. Regionale Feiertage selbst prüfen.
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Steuerfrist in 3 Tagen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:freikontor-2027-15@freikontor.invalid
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270712
+DTEND;VALUE=DATE:20270713
+SUMMARY:USt-Voranmeldung Juni (monatlich\, ohne Dauerfristverlängerung)
+DESCRIPTION:Betrifft: Regelbesteuerte\, monatliche Abgabe. Frist auf Werktag verschoben. Regionale Feiertage selbst prüfen.
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Steuerfrist in 3 Tagen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:freikontor-2027-16@freikontor.invalid
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270712
+DTEND;VALUE=DATE:20270713
+SUMMARY:USt-Voranmeldung Q2 (vierteljährlich\, ohne Dauerfristverlängerung)
+DESCRIPTION:Betrifft: Regelbesteuerte\, vierteljährliche Abgabe. Frist auf Werktag verschoben. Regionale Feiertage selbst prüfen.
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Steuerfrist in 3 Tagen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:freikontor-2027-17@freikontor.invalid
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270726
+DTEND;VALUE=DATE:20270727
+SUMMARY:Zusammenfassende Meldung (vierteljährlich)
+DESCRIPTION:Betrifft: Leistungen an Unternehmen im EU-Ausland. Frist auf Werktag verschoben. Regionale Feiertage selbst prüfen.
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Steuerfrist in 3 Tagen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:freikontor-2027-18@freikontor.invalid
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270802
+DTEND;VALUE=DATE:20270803
+SUMMARY:Steuererklärungen 2026 (ESt inkl. Anlage EÜR\, USt\, GewSt) ohne Steuerberatung
+DESCRIPTION:Betrifft: Alle Selbstständigen (§ 149 Abs. 2 AO). Frist auf Werktag verschoben. Regionale Feiertage selbst prüfen.
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Steuerfrist in 3 Tagen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:freikontor-2027-19@freikontor.invalid
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270810
+DTEND;VALUE=DATE:20270811
+SUMMARY:USt-Voranmeldung Juli (monatlich\, ohne Dauerfristverlängerung)
+DESCRIPTION:Betrifft: Regelbesteuerte\, monatliche Abgabe. Frist auf Werktag verschoben. Regionale Feiertage selbst prüfen.
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Steuerfrist in 3 Tagen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:freikontor-2027-20@freikontor.invalid
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270816
+DTEND;VALUE=DATE:20270817
+SUMMARY:Gewerbesteuer-Vorauszahlung (laut Bescheid)
+DESCRIPTION:Betrifft: Gewerbetreibende mit Bescheid. Frist auf Werktag verschoben. Regionale Feiertage selbst prüfen.
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Steuerfrist in 3 Tagen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:freikontor-2027-21@freikontor.invalid
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270910
+DTEND;VALUE=DATE:20270911
+SUMMARY:USt-Voranmeldung August (monatlich\, ohne Dauerfristverlängerung)
+DESCRIPTION:Betrifft: Regelbesteuerte\, monatliche Abgabe. Frist auf Werktag verschoben. Regionale Feiertage selbst prüfen.
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Steuerfrist in 3 Tagen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:freikontor-2027-22@freikontor.invalid
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270910
+DTEND;VALUE=DATE:20270911
+SUMMARY:Einkommensteuer-Vorauszahlung (laut Bescheid)
+DESCRIPTION:Betrifft: Alle mit Vorauszahlungsbescheid. Frist auf Werktag verschoben. Regionale Feiertage selbst prüfen.
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Steuerfrist in 3 Tagen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:freikontor-2027-23@freikontor.invalid
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20271011
+DTEND;VALUE=DATE:20271012
+SUMMARY:USt-Voranmeldung September (monatlich\, ohne Dauerfristverlängerung)
+DESCRIPTION:Betrifft: Regelbesteuerte\, monatliche Abgabe. Frist auf Werktag verschoben. Regionale Feiertage selbst prüfen.
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Steuerfrist in 3 Tagen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:freikontor-2027-24@freikontor.invalid
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20271011
+DTEND;VALUE=DATE:20271012
+SUMMARY:USt-Voranmeldung Q3 (vierteljährlich\, ohne Dauerfristverlängerung)
+DESCRIPTION:Betrifft: Regelbesteuerte\, vierteljährliche Abgabe. Frist auf Werktag verschoben. Regionale Feiertage selbst prüfen.
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Steuerfrist in 3 Tagen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:freikontor-2027-25@freikontor.invalid
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20271025
+DTEND;VALUE=DATE:20271026
+SUMMARY:Zusammenfassende Meldung (vierteljährlich)
+DESCRIPTION:Betrifft: Leistungen an Unternehmen im EU-Ausland. Frist auf Werktag verschoben. Regionale Feiertage selbst prüfen.
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Steuerfrist in 3 Tagen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:freikontor-2027-26@freikontor.invalid
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20271110
+DTEND;VALUE=DATE:20271111
+SUMMARY:USt-Voranmeldung Oktober (monatlich\, ohne Dauerfristverlängerung)
+DESCRIPTION:Betrifft: Regelbesteuerte\, monatliche Abgabe. Frist auf Werktag verschoben. Regionale Feiertage selbst prüfen.
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Steuerfrist in 3 Tagen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:freikontor-2027-27@freikontor.invalid
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20271115
+DTEND;VALUE=DATE:20271116
+SUMMARY:Gewerbesteuer-Vorauszahlung (laut Bescheid)
+DESCRIPTION:Betrifft: Gewerbetreibende mit Bescheid. Frist auf Werktag verschoben. Regionale Feiertage selbst prüfen.
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Steuerfrist in 3 Tagen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:freikontor-2027-28@freikontor.invalid
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20271210
+DTEND;VALUE=DATE:20271211
+SUMMARY:USt-Voranmeldung November (monatlich\, ohne Dauerfristverlängerung)
+DESCRIPTION:Betrifft: Regelbesteuerte\, monatliche Abgabe. Frist auf Werktag verschoben. Regionale Feiertage selbst prüfen.
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Steuerfrist in 3 Tagen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:freikontor-2027-29@freikontor.invalid
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20271210
+DTEND;VALUE=DATE:20271211
+SUMMARY:Einkommensteuer-Vorauszahlung (laut Bescheid)
+DESCRIPTION:Betrifft: Alle mit Vorauszahlungsbescheid. Frist auf Werktag verschoben. Regionale Feiertage selbst prüfen.
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Steuerfrist in 3 Tagen
+END:VALARM
+END:VEVENT
+END:VCALENDAR

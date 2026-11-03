@@ -1,3 +1,7 @@
 __pycache__/
 *.pyc
 node_modules/
+marketing/tiktok/audio/*.wav
+!product/dist/
+!product/release/*.zip
+!shop/.env.example
