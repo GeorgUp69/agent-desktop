@@ -1,0 +1,64 @@
+FACT CHECK — Koenigsegg Jesko Absolut (checked 3–4 Nov 2026)
+
+Labels: [MFR] manufacturer claim · [VERIFIED] independently measured/verified result ·
+[THEORETICAL] simulation or estimate, never achieved/verified · [SECONDARY] reported by press/encyclopedia
+
+All of these figures belong to the Jesko ABSOLUT (low-drag, top-speed variant). The Jesko ATTACK is the
+track variant with the large rear wing; its figures are not used except where the video contrasts them.
+
+CLAIM IN VIDEO                           STATUS         SOURCE
+---------------------------------------------------------------------------------------------------------
+5.0 L twin-turbocharged V8               [MFR]          koenigsegg.com/model/jesko-absolut ("5.0 Liter Koenigsegg Twin-turbo V8")
+  note: exact displacement 5,065 cc;     [SECONDARY]    en.wikipedia.org/wiki/Koenigsegg_Jesko (Engine section)
+  the video uses Koenigsegg's "5.0L"
+Up to 1,600 hp on E85                    [MFR]          koenigsegg.com/model/jesko-absolut ("1280 bhp (1600 bhp on E85)")
+1,280 hp on regular gasoline             [MFR]          same page
+Flat-plane 180° crankshaft               [MFR]          same page (12.5 kg, "world's lightest V8 crankshaft")
+8,500 rpm rev limit                      [MFR]          same page
+9-speed Light Speed Transmission (LST)   [MFR]          same page
+Drag coefficient 0.278 Cd                [MFR]          same page (target 0.28, achieved 0.278 in CFD)
+Rear wing deleted vs Attack; downforce   [MFR]          same page ("removal of the Jesko Attack's massive rear
+  1,400 kg -> 150 kg                                    wing, which dropped downforce from 1400kg to 150kg")
+"Fully homologated" road car             [MFR]          same page ("than any ... other fully homologated car";
+                                                        "homologated, series production car")
+500+ km/h (≈310+ mph) top speed          [THEORETICAL]  Koenigsegg says its "math and advanced simulations" show
+                                                        it will be "unbelievably fast"; the ~500 km/h estimate and
+                                                        330–350 mph theoretical figures (CNET, Road & Track,
+                                                        Motor1) are cited on Wikipedia. NO top-speed run has been
+                                                        officially verified (checked Nov 2026; Koenigsegg cites
+                                                        lack of a suitable safe location).
+0–400–0 km/h in 25.21 s                  [VERIFIED]     Run of 7 Aug 2025, Örebro airfield, Sweden; driver Markus
+  (0–400 km/h 16.77 s, 400–0 km/h 8.44 s)               Lundh; recorded with Racelogic equipment, independently
+                                                        verified. Reported by Top Gear, Road & Track, Paul Tan,
+                                                        duPont Registry, Carscoops, Supercars.net, DriveArabia
+                                                        (Aug 2025). Software: Koenigsegg "Absolut Overdrive".
+                                                        Previous own best: 27.83 s (June 2024). It beat the Rimac
+                                                        Nevera R's 25.79 s.
+Jesko production: 125 cars,              [SECONDARY]    Motor Authority ("$3M Koenigsegg Jesko ready for production
+  Attack + Absolut combined                             but already sold out"; "Jesko Absolut production underway");
+                                                        en.wikipedia.org/wiki/Koenigsegg_Jesko. Split between
+                                                        variants is set by customer demand, so the video gives no
+                                                        Absolut-only count. (One low-quality site claims "30 units";
+                                                        it contradicts the other sources and is not used.)
+
+USED ONLY IN DOCS (not stated in the video):
+- Torque 1,500 N·m on E85 / 1,000 N·m on petrol [MFR via Wikipedia]
+- Kerb weight 1,390 kg, dry 1,290 kg [MFR via Wikipedia]
+- Frontal area 1.88 m² [MFR, koenigsegg.com]
+- Unveiled online 3 March 2020 [SECONDARY, Wikipedia]
+- June 2026: quarter mile 8.54 s (~305 km/h trap) and half mile 12.76 s (~373 km/h) at Ängelholm, driver
+  Markus Lundh [SECONDARY: autoevolution, duPont Registry, Sports Car Digest, F1rstMotors]. Left out of the
+  video: sources disagree on the verification body and the exact half-mile speed (231.7 vs 232 mph).
+
+NOT CLAIMED ANYWHERE: Nürburgring times, any achieved top speed, 0–100 km/h times, Absolut-only production count.
+
+SOURCE URLS
+- https://www.koenigsegg.com/model/jesko-absolut
+- https://en.wikipedia.org/wiki/Koenigsegg_Jesko
+- https://www.topgear.com.ph/features/feature-articles/koenigsegg-jesko-absolut-claims-0-400-0kph-world-record-a2603-20250817
+- https://paultan.org/2025/08/14/koenigsegg-jesko-absolut-reclaims-0-400-0-km-h-record/
+- https://news.dupontregistry.com/koenigsegg/watch-the-koenigsegg-jesko-absolut-reclaim-the-0-250-0-mph-world-record-in-25-21-seconds/
+- https://www.drivearabia.com/news/2025/08/13/koenigsegg-jesko-absolut-smashes-0-400-0-km-h-world-record-again/
+- https://www.motorauthority.com/news/1122165_3m-koenigsegg-jesko-ready-for-production-but-already-sold-out
+- https://www.motorauthority.com/news/1142228_koenigsegg-jesko-absolut-production-underway-top-speed-attempt-in-2024
+- https://www.autoevolution.com/news/koenigsegg-jesko-absolut-just-set-the-quarter-mile-speed-record-for-production-cars-271456.html

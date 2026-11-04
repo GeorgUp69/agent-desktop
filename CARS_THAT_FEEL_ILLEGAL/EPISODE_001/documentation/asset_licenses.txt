@@ -1,0 +1,40 @@
+ASSET LICENSES — Episode 001
+
+PHOTOGRAPHS (all genuine photographs of the Koenigsegg Jesko Absolut, from Wikimedia Commons)
+Used: graded, cropped, animated with camera moves. On studio shots the show-floor background was removed
+(BiRefNet segmentation) and replaced with a dark studio backdrop and floor reflection made from the car
+itself. Number plates were blurred. The car's body, wheels, lights and proportions are untouched: no
+AI-generated vehicle imagery anywhere.
+
+ID  Commons file                                                    Author                 License        Used for
+p1  File:2024_Koenigsegg_Jesko_Absolut.jpg                          Calreyn88              CC BY-SA 4.0   hero 3/4, rear quarter, splitter
+p2  File:2024_Koenigsegg_Jesko_Absolut_2.jpg                        Calreyn88              CC BY-SA 4.0   hook headlight, front, wheel
+p4  File:IMGP1425_(53877997463).jpg                                 David Merrett (Flickr) CC BY 2.0      crest/hood, headlight, front
+p5  File:Koenigsegg,_Auto_2024,_Zurich_(PANA0940).jpg               Matti Blume            CC BY-SA 4.0*  side profile, aero, fins, finale
+p8  File:Koenigsegg_Jesko_Absolut_Auto_Zuerich_2025_DSC_3671.jpg    Alexander Migl         CC BY-SA 4.0   engine bay, turbos, exhausts
+p9  File:Koenigsegg_Jesko_Absolut_Auto_Zuerich_2025_DSC_3673.jpg    Alexander Migl         CC BY-SA 4.0   interior, "absolut" stitching
+*Matti Blume offers this file under CC BY-SA 4.0, 3.0, 2.5 and 2.0; we use 4.0.
+Pages: https://commons.wikimedia.org/wiki/<file name above>
+
+Rejected: "File:Koenigsegg_Jesko,_Auto_2024,_Zurich_(PANA0957).jpg" is filed under Jesko on Commons but
+shows a Koenigsegg Regera (wrong car). A blue Absolut set (Calreyn88, MrWalkr) was dropped to keep one
+consistent carbon-bodied car throughout.
+
+Attribution: each shot shows its photographer and license at the top right, and the end card credits
+all photographers. Use the TikTok caption credit line in production_notes.txt as well.
+
+SHARE-ALIKE NOTICE: five of the six photos are CC BY-SA. Modified versions of them (graded, cut out,
+composited) are adaptations, so the adapted imagery in this video must be shared under CC BY-SA 4.0 with
+credit. Posting to TikTok is allowed, but nobody can claim exclusive rights over these images, and a
+licensee may not add restrictions. Brand names (Koenigsegg, Jesko) are used descriptively/editorially.
+
+MUSIC: original composition, synthesized for this episode in Python/NumPy (no samples, no loops, no
+third-party audio). Owned by the channel; no license needed.
+ENGINE + SOUND EFFECTS: synthesized from scratch (physical model of a flat-plane twin-turbo V8 using the
+Jesko's specs: 4 firing pulses per crank revolution, banks alternating left/right, 8,500 rpm limit,
+lagged turbo whine, lift-off flutter, overrun pops). NOT a recording of a real Jesko. No third-party audio.
+VOICEOVER: Kokoro-82M text-to-speech (Apache-2.0 model weights; voices am_michael 60% + am_fenrir 40%),
+run locally through kokoro-onnx (MIT). Commercial use allowed. It is an AI voice. TikTok requires
+AI-generated content to be labeled, so turn on the "AI-generated content" label when posting.
+FONTS: Anton, Oswald, Inter and JetBrains Mono, all SIL Open Font License 1.1 (Google Fonts).
+TOOLS: FFmpeg, NumPy/SciPy, Pillow, rembg + BiRefNet (MIT), faster-whisper (MIT) for QC and timing.

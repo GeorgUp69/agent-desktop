@@ -1,0 +1,69 @@
+CARS THAT FEEL ILLEGAL — EPISODE 001
+Koenigsegg Jesko Absolut
+Final narration script (as recorded) with on-screen text
+Runtime: 88.0 s · 9:16 · 1080x1920 · 30 fps
+
+Pronunciation: Koenigsegg = "KER-nig-seg" (Swedish ö), Jesko = "YES-ko", Absolut = "AB-so-loot".
+
+Changes from the brief's draft script, and why:
+- "Under the hood sits..." became "Behind the driver sits...". The Jesko is mid-engined; the V8 sits behind
+  the cabin, not under a hood.
+- Scene 4 names the verified manufacturer drag figure (0.278 Cd) instead of a generic "reducing drag".
+- Scene 5 keeps the brief's intent ("speeds most supercars can only dream about") but says plainly that
+  Koenigsegg's 500+ km/h figure is a simulation that has never been officially verified, then gives the one
+  speed result that has been independently verified (0-400-0 km/h in 25.21 s).
+- Scene 6 says "fully homologated road car", which is Koenigsegg's own wording ("fully homologated car").
+
+------------------------------------------------------------------------------------------------
+SCENE 1 — THE HOOK (0.00–5.45)
+Visual: near-black screen; headlight emerges from darkness on a bass impact (0.35 s); slow push-in.
+On screen: THIS CAR / FEELS ILLEGAL.
+VO (1.00): "This might be one of the most insane road cars ever created."
+
+SCENE 2 — THE REVEAL (5.45–13.55)
+Visual: hero 3/4 in dark studio, side-profile track, carbon hood and crest, rear fins.
+On screen: KOENIGSEGG / JESKO ABSOLUT
+VO (5.60): "Meet the Koenigsegg Jesko Absolut."
+VO (8.30): "A machine engineered with one obsession: going unbelievably fast."
+
+SCENE 3 — THE ENGINE (13.55–29.65)
+Visual: engine bay powers up on the ignition (starter 13.55, fire 14.25, blip 15.75), twin turbos,
+exhaust tips, side intake; big rev to the 8,500 rpm limit with engine-synced camera shake (27.15–29.6).
+On screen: 5.0L TWIN-TURBO V8 (flat-plane crank · 9-speed LST) / UP TO 1,600 HP on E85 fuel /
+1,280 HP on regular gasoline / "Manufacturer figures" / 8,500 RPM REV LIMIT
+VO (16.90): "Behind the driver sits a twin-turbocharged, five-liter V8, producing up to sixteen hundred
+horsepower, when running on E85 fuel."
+
+SCENE 4 — THE ENGINEERING (29.65–45.55)
+Visual: full side profile with animated airflow lines traced from the car's real silhouette;
+front splitter; rear fins and long tail; stylized speed streaks (graphic effect, not driving footage).
+On screen: DRAG COEFFICIENT 0.278 Cd / REAR WING DELETED VS. JESKO ATTACK · DOWNFORCE 1,400 KG -> 150 KG
+/ "Manufacturer figures" / THEORETICAL
+VO (29.80): "But this isn't just about horsepower."
+VO (32.50): "The Absolut was shaped for extreme aerodynamic efficiency. A drag coefficient of just zero point
+two seven eight, built to pursue an incredible, theoretical top speed."
+
+SCENE 5 — THE PERFORMANCE (45.55–62.75)
+Visual: hero push-in, headlight, side profile; record counter over the front of the car; exhaust close-up;
+wheel with speed streaks into the climax.
+On screen: KOENIGSEGG SIMULATION · 500+ KM/H (≈ 310+ MPH) / NOT VERIFIED
+then VERIFIED RECORD · speed counter 0 -> 400 -> 0 km/h with timer · 25.21 s ·
+"0–400–0 KM/H · RACELOGIC-VERIFIED · Örebro, Sweden · 7 Aug 2025 · counter animation illustrative"
+VO (45.80): "Koenigsegg's own simulations point beyond five hundred kilometers per hour. That has never been
+officially verified."
+VO (54.60): "But this has. Zero to four hundred, and back to a full stop, in just twenty-five point two one
+seconds."
+
+SCENE 6 — THE MOST EXTREME DETAIL (62.75–76.30)
+Visual: music peak; wide side profile; interior steering wheel; rear quarter; "absolut" dash stitching;
+engine bay; front.
+On screen: FULLY HOMOLOGATED · SERIES-PRODUCTION ROAD CAR / JESKO PRODUCTION: 125 CARS (Attack + Absolut combined)
+VO (63.00): "And here's what makes it even crazier. This isn't a futuristic concept car. It's a fully
+homologated road car, from a company that pushes engineering to its absolute limits."
+
+SCENE 7 — THE FINAL MOMENT (76.30–88.00)
+Visual: slow dissolves in the dark studio; front view as lights dim; final rev and impact (84.3);
+closing wide side profile with end card.
+On screen: WOULD YOU DRIVE IT? / CARS THAT FEEL ILLEGAL · EPISODE 001 · FOLLOW FOR EPISODE 002 / photo credits
+VO (76.60): "So here's the question. Would you actually drive this every day? Or is it simply too insane for
+the real world?"

@@ -1,0 +1,21 @@
+MUSIC — "Absolut" (original score, Episode 001)
+
+Composer/producer: synthesized for this channel (project/editing_project_files/music.py). No samples,
+no stock library, no third-party audio. Rights: owned; no license, Content ID or attribution issues.
+
+Style: dark cinematic electronic · 100 BPM · D minor (Dm – Bb – Gm – A)
+Instruments: detuned supersaw pads, sub bass, saw bass, plucked arpeggio, synthesized kick/snare/hats/toms,
+metallic clock ticks, convolution reverb.
+
+Structure (seconds):
+ 0.00–5.45   A  Intro: sub drone, dark filtered pad, clock ticks, opening bass impact at 0.35
+ 5.45–16.75  B  Reveal: pad opens, kick on the downbeat; dips -9 dB for the engine start-up (13.5–16.7)
+16.75–29.65  C  Engine: half-time kick and snare, 8th-note bass; dips -8 dB for the 8,500 rpm rev
+29.65–45.55  D  Engineering: arpeggio enters, hats and backbeat; dips for the speed effect
+45.55–62.75  E  Performance: four-on-the-floor, 16th bass, brighter arp, riser; 0.5 s silence before the drop
+62.75–76.30  F  Climax: full drums, widest pads, tom fills
+76.30–88.00  G  Outro: drums out, pads and slow plucks, final impact 84.30, fade out
+
+Mix: sidechain-ducked under the voice (music -9 dB, engine -7 dB, SFX -4 dB while the narrator speaks).
+Master: -13.9 LUFS integrated, -2.4 dBTP true peak, 48 kHz stereo.
+Stems: assets/audio_stems/ (music, engine, sfx as FLAC).
