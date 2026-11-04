@@ -104,3 +104,21 @@ LIMITATIONS AND WHAT WOULD RAISE THE CEILING
 
 ====================================================================================================
 QUALITY CONTROL (after the final render) — see the QC section appended below.
+
+QC REPORT (final_tiktok_video.mp4, rendered 4 Nov 2026)
+- Format: 88.000 s · 1080x1920 9:16 · 30 fps · 2,640 frames · H.264 High · AAC-LC 320 kb/s 48 kHz stereo · 86.7 MB
+- Loudness: -13.9 LUFS integrated, -2.4 dBTP true peak, LRA 2.6 LU. No clipping (limiter at -3 dBFS before normalization).
+- Black frames: only 0.00–0.13 s, the intended "nearly black" opening (headlight detail already visible,
+  luma max > black). The engine bay at 13.55–14.25 s is deliberately dim before ignition (mean luma 21/255).
+- Freezes: none of 1.5 s or longer.
+- Render seams: luma continuous across all chunk boundaries.
+- Narration: Whisper (small.en) transcription of the FINAL MIX matches the script word for word, including
+  "Koenigsegg Jesko Absolut". Caption timing vs spoken words: median 20 ms offset; 151 of 159 words aligned.
+- Vehicle identity: every shot is a Jesko Absolut (no rear wing, long tail with dorsal fins). A
+  mislabeled Regera photo was found and excluded. One carbon-bodied car look throughout; the blue
+  livery was dropped and the warm color cast on photo 1 was corrected for consistency.
+- No AI-generated imagery, so no distorted wheels, headlights or reflections. Number plates blurred.
+- Facts on screen: all checked in documentation/factual_sources.txt. Manufacturer claims are labeled; the
+  top speed is marked "KOENIGSEGG SIMULATION / NOT VERIFIED"; the 25.21 s record is marked verified with
+  date and place; the speed-counter animation is labeled illustrative.
+- Spelling and grammar checked in script, captions and graphics.
