@@ -1,0 +1,106 @@
+PRODUCTION NOTES — CARS THAT FEEL ILLEGAL · EPISODE 001 · Koenigsegg Jesko Absolut
+
+DELIVERABLE
+final/final_tiktok_video.mp4 · 88.0 s · 1080x1920 (9:16) · 30 fps · H.264 High, yuv420p, CRF 15 ·
+AAC 320 kb/s 48 kHz stereo · -14 LUFS target (measured -13.9 LUFS integrated, -2.4 dBTP)
+
+====================================================================================================
+TIKTOK CAPTION (paste as is)
+This car feels illegal. 1,600 hp on E85, a 0.278 drag coefficient, and a verified 0–400–0 km/h in 25.21 s. Would you drive it every day? 👇
+Ep. 001 of Cars That Feel Illegal. Top speed claims are Koenigsegg simulations, not verified runs.
+📸 Calreyn88, David Merrett, Matti Blume, Alexander Migl via Wikimedia Commons (CC BY-SA 4.0 / CC BY 2.0)
+
+HASHTAGS
+#koenigsegg #jeskoabsolut #koenigseggjesko #hypercar #supercar #carsthatfeelillegal #carsoftiktok
+#cartok #v8 #engineering #fyp
+
+SUGGESTED PINNED COMMENT
+Facts check: the 0–400–0 km/h run (25.21 s, Aug 2025) is Racelogic-verified. The 500+ km/h top speed is
+still only a Koenigsegg simulation. Which car should get Episode 002? 🏁
+
+POSTING CHECKLIST
+- Turn on TikTok's "AI-generated content" label: the narrator is a synthetic (TTS) voice.
+- Burned-in captions are already in the video; captions/subtitles.srt can also be uploaded as captions.
+- Keep the photo credit line in the caption (CC BY / BY-SA attribution).
+
+====================================================================================================
+PRODUCTION TIMELINE (seconds · shot · source photo · effect · overlay)
+SCENE 1 HOOK
+ 0.00–2.75  headlight extreme close, rises out of black (p2) · light sweep · impact 0.35 · "THIS CAR FEELS ILLEGAL."
+ 2.75–5.45  front 3/4, slow push (p2)
+SCENE 2 REVEAL
+ 5.45–8.15  hero 3/4 in dark studio (p1) · name card KOENIGSEGG / JESKO ABSOLUT
+ 8.15–9.95  side-profile track (p5)
+ 9.95–11.15 carbon hood + crest close (p4)
+11.15–13.55 rear dorsal fins (p5)
+SCENE 3 ENGINE
+13.55–16.75 engine bay powers up with ignition: starter, fire, blip (p8)
+16.75–19.15 twin turbos pan (p8)
+19.15–21.55 side intake / rear quarter (p1) · 5.0L TWIN-TURBO V8
+21.55–23.95 exhaust tips (p8) · UP TO 1,600 HP (count-up)
+23.95–26.35 low side profile (p5) · 1,280 HP ON REGULAR GASOLINE
+26.35–27.15 wheel + caliper (p2)
+27.15–29.65 rev to 8,500 rpm: engine bay / headlight / front, shake driven by engine audio · 8,500 RPM
+SCENE 4 ENGINEERING
+29.65–34.75 full profile with airflow lines traced from the car's silhouette (p5)
+34.75–37.15 front splitter (p1)
+37.15–41.15 profile + airflow (p5) · DRAG COEFFICIENT 0.278 Cd · wing deleted, downforce 1,400 -> 150 kg
+41.15–43.40 tail and fins (p5) · THEORETICAL
+43.40–45.55 profile with speed streaks (stylized graphic, not driving footage) (p5)
+SCENE 5 PERFORMANCE
+45.55–48.55 hero push (p1)
+48.55–51.55 headlight (p2) · 500+ KM/H, Koenigsegg simulation
+51.55–54.40 profile (p5) · NOT VERIFIED
+54.40–58.30 front (p4) · VERIFIED RECORD, counter 0 -> 400 km/h
+58.30–61.95 exhaust push (p8) · counter -> 0 · 25.21 s
+61.95–62.75 wheel + streaks (p2) · engine pull into the drop
+SCENE 6 MOST EXTREME DETAIL
+62.75–65.15 wide profile, music peak (p5)
+65.15–67.55 steering wheel (p9)
+67.55–69.95 rear quarter (p1)
+69.95–72.35 "absolut" dash stitching (p9) · FULLY HOMOLOGATED
+72.35–74.75 engine bay (p8) · JESKO PRODUCTION: 125 CARS (Attack + Absolut)
+74.75–76.30 front (p4)
+SCENE 7 FINAL MOMENT
+76.30–80.50 slow dissolve to front 3/4 (p2)
+80.50–84.30 front as lights dim (p4) · WOULD YOU DRIVE IT?
+84.30–88.00 final profile, last rev and impact (p5) · end card + credits
+
+AUDIO: voiceover in voiceover/voiceover.wav, placed on the same 88 s timeline (line start times in
+scripts/final_script.txt). Engine moments with no narration over them: 13.55–16.9 start-up, 27.15–29.6 rev,
+43.4–45.6 pass, 61.95–63.0 pull, 84.1–86 final rev.
+
+====================================================================================================
+HOW IT WAS MADE (environment: Linux cloud container, CPU only, FFmpeg 6, Python 3.13)
+1. Facts: verified on koenigsegg.com plus press coverage (documentation/factual_sources.txt).
+2. Footage: no licensed motion footage of the Jesko Absolut exists that can be reused, and no
+   video-generation API was configured. So the visuals are genuine Wikimedia Commons photographs, cut
+   out with BiRefNet, composited into a dark studio with a floor reflection taken from the car itself,
+   graded, and animated with camera moves, light sweeps, engine-synced shake, airflow lines and speed
+   streaks. No AI-generated car imagery, and no fake driving footage.
+3. Voice: Kokoro-82M TTS (am_michael 60% + am_fenrir 40%, speed 0.92), with phoneme overrides for
+   KER-nig-seg / YES-ko / AB-so-loot; EQ, compression, short room reflection. Whisper transcription of
+   every line matched the script.
+4. Music and SFX: synthesized in NumPy (project/editing_project_files/music.py, sfx.py, engine.py).
+5. Render: render.py writes frames into FFmpeg (libx264); the master audio was loudness-normalized in two
+   passes.
+
+Rebuild: cd project/editing_project_files; make_vo.py -> mix.py -> music.py / sfx.py -> master.py ->
+cutout.py / plates.py -> render.py (paths inside the scripts assume the original working folders).
+
+====================================================================================================
+LIMITATIONS AND WHAT WOULD RAISE THE CEILING
+- Real motion footage: the brief prefers genuine licensed video. None is publicly licensed for reuse.
+  Options: license clips from Koenigsegg's press office (media.koenigsegg.com) or a stock agency; or set up
+  a video-generation API (e.g. Runway, Google Veo, Kling) with the credentials as environment secrets.
+  AI driving shots would have to be labeled as AI-generated.
+- Authentic engine audio: the engine is a physically informed synthesis, not a Jesko recording. A
+  licensed Jesko recording (Koenigsegg press kit, or a sound library with commercial rights) could drop
+  straight into assets/audio_stems/engine.flac.
+- Premium human-quality voice: an ElevenLabs (or similar) API key would allow a higher-end narrator;
+  re-run mix.py/master.py with the new lines.
+- No true rear three-quarter photo was available (the two remaining Commons files were rate-limited), so
+  the finale uses the long-tail side profile.
+
+====================================================================================================
+QUALITY CONTROL (after the final render) — see the QC section appended below.
